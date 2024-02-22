@@ -1,0 +1,19 @@
+#kiwiki .hiddenHead.hiddenSinceBeginning {
+    background-color: var(--kiwiki-ui-200);
+}
+
+#kiwiki div.hiddenHead p {
+    position: relative;
+    color: var(--kiwiki-btn-bg);
+}
+
+#kiwiki div.hiddenHead p::after {
+    position: absolute;
+    right: 0;
+    top: auto;
+}
+
+#kiwiki .hiddenGlobal {
+    border: 1px solid var(--kiwiki-body-bg);
+    padding: 0;
+}
